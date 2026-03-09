@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Set up Docker
-        uses: crazy-max/ghaction-setup-docker@v3.3.0
+        uses: docker/setup-docker-action@v4
 
       - name: Getting Updates and Installing Tailscale, Git.
         run: |
